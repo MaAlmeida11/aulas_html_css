@@ -8,36 +8,56 @@
 </head>
 <body>
     <form action=""></form>
-    <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite o seu nome" required>
-    </div>
+    <fieldset>
+        <legend>Formulário de Dados do Aluno</legend>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" required>
+        </div>
+    
+        <div>
+            <p>Qual a sua turma?</p>
+        </div>
+    
+        <div>
+            <input type="radio" id="opcao1" name="turma">
+            <label for="opcao1">TI01MA</label>
+        </div>
+    
+        <div>
+            <input type="radio" id="opcao2" name="turma">
+            <label for="opcao2">TI01MB</label>
+        </div>
+    
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+    
+        <div>
+            <label for="turno">Manhã:</label>
+            <input type="checkbox" id="turno" name="turno">
+        </div>
+    
+        <div>
+            <label for="mascote">Selecione seu mascote:</label>
+            <select name="mascote" id="mascote">
+                <option disabled selected>Selecione...</option>
+                <option value="bears">Bears</option>
+                <option value="batz">Batz</option>
+                <option value="lion">Lion</option>
+                <option value="dogs">Dogs</option>
+            </select>
+        </div>
 
-    <div>
-        <p>Qual a sua turma?</p>
-    </div>
-
-    <div>
-        <input type="radio" id="opcao1" name="turma">
-        <label for="opcao1">TI01MA</label>
-    </div>
-
-    <div>
-        <input type="radio" id="opcao2" name="turma">
-        <label for="opcao2">TI01MB</label>
-    </div>
-
-    <div>
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha">
-    </div>
-
-    <div>
-        <label for="esm">Ensino Médio:</label>
-        <input type="checkbox" id="esm" name="esm">
-    </div>
-
-    <button>Enviar</button>
-
+        <div>
+            <label for="numerochamada">Número de chamada:</label>
+            <input type="number" id="numerochamada" name="numerochamada">
+        </div>
+    
+        <button>Enviar</button>
+    
+    </fieldset>
+    
 </body>
 </html>
