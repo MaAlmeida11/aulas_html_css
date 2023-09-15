@@ -1,3 +1,9 @@
 h1 {
-    color: dimgray;
+    color: dodgerblue;
+}
+
+p {
+    color: darkslategray;
+    background: darkcyan;
+    font-size: 24px;
 }
