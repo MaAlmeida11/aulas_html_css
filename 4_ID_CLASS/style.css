@@ -1,3 +1,11 @@
+#titulo-id {
+    color: purple;
+}
+
+.cor-amarela {
+    color: yellow;
+}
+
 h2 {
     font-family: 'Times New Roman', Times, serif;
     color: cornflowerblue;
@@ -17,3 +25,14 @@ h2 {
 .fundo-azul {
     background-color: rgb(22, 40, 83);
 }
+
+.fonte-grande {
+    font-size: 50px;
+}
+
+#titulo-principal {
+    background: black;
+    color: white;
+}
+
+/* especifidade(importância) */
